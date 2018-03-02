@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+  margin: 0;
+ 
+  padding: 10px;
+  background: #000;
+  margin-top: 40px;
+}
+ 
+.nav ul {
+  list-style: none;
+ border: grey;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Calibri', sans-serif;
+  font-size: 0.5em;
+  line-height: 0;
+  height: 0;
+  border-bottom: 3px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: none;
+}
+ 
+
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 100px;
+    border-bottom: none;
+    height: 7px;
+    line-height: 70px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
+ .p
+ {
+     font-family:"Comic Sans MS", cursive, sans-serif;
+     font-size: 20px;
+     height: 40px;
+    
+ }
+ .a
+ {
+     font-family: "Calibri", sans-serif;
+     padding-top: 8px;
+     padding-left: 20px;
+     padding-bottom: 8px;
+ }
+ .b
+ {
+     font-family: "Calibri", sans-serif;
+     padding-top: 2px;
+     padding-left: 20px;
+     padding-bottom: 80px;
+ }
+        </style>
+        
+    </head>
+    <body bgcolor="black" class="news">
+        <header>
+    <div class="nav">  
+        <div class="p">
+                        <h2><a href="home.jsp"><font color="red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>ShapeUP</b></font></a></h2></div>
+        <ul>
+           <li class="tutorials"><a class="active" href="#">Description</a></li>
+            <li class="home"><a href="#">About Us</a></li>
+        <li class="home"><a href="login.jsp">Login</a></li>
+        <li class="tutorials"><a class="active" href="register.jsp">Register</a></li>
+        <li class="tutorials"><a class="active" href="contactus.jsp">ContactUs</a></li>
+       
+      </ul>
+    </div>
+        </header>
+       
+        <div class="a"  style="float:left; width:30%;"><br><br><br> <img src="images/studio_gym2.jpg" alt="" width="376" height="195"> <br><font color="gray"> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fitness</b> </font></div> 
+        <div class="a" style="float:right; width:65%; ">
+            <h3>  <font color="white"> <br><br>
+                <i> When it comes to eating right and exercising, there is no I'll start tomorrow.Tomorrow is disease. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~ V.L. Allinear</i><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Here Fitness or Gym section guides user to follow a proper workout schedule. Initially user selects his gender and then user can choose weight gain or eight loss program to get started. Now the user according to his expertise level chooses Beginner, Intermediate, or Expert level to start working-out. At each level a detailed plan to follow for a complete week is listed and it also contains videos to guide on how exactly to perform exercises. 
+            </h3>    </div>
+             <div class="b"  style="float:right; width:35%;"><br><br><br> <img src="images/images_diet.jpg" alt="" width="350" height="231"> <br><font color="gray"> <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food</b> </font></div> 
+             <div class="b" style="float:left; width:60%;">
+                 <h3> <font color="white"> <br><br>
+                     <i> To eat is necessary but to eat intelligently is an art. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ~ La Rochefoucauld</i><br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Here Diet section contains veg and non-veg sections and in that user can choose weight loss or weight gain program and follow as directed. It contains detailed information of food to be consumed for that particular program and also contains food preparation videos.
+</font></h3>
+             </div>
+             </font></h3>   
+            
+        </div><br> </div></header>
+  
+ </body>
+</html>
